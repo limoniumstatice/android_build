@@ -44,7 +44,6 @@ PRODUCT_PACKAGES += \
     ExtServices \
     SettingsProvider \
     Shell \
-    WallpaperBackup \
     bcc \
     bu \
     com.android.location.provider \
