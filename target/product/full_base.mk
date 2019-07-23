@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+PRODUCT_LOCALES := ja_JP
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage14.mk)

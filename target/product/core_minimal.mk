@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += \
     SettingsProvider \
     Shell \
     StatementService \
-    WallpaperBackup \
     android.hidl.base-V1.0-java \
     android.hidl.manager-V1.0-java \
     bcc \
@@ -142,8 +141,7 @@ PRODUCT_SYSTEM_SERVER_JARS := \
 
 # The set of packages whose code can be loaded by the system server.
 PRODUCT_SYSTEM_SERVER_APPS += \
-    SettingsProvider \
-    WallpaperBackup
+    SettingsProvider
 
 # Adoptable external storage supports both ext4 and f2fs
 PRODUCT_PACKAGES += \
