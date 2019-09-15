@@ -242,5 +242,9 @@ com\.google\.vr\.platform.*
 # Packages used for Android in Chrome OS
 org\.chromium\.arc
 
-# CAF
-org\.codeaurora\..*
+###################################################
+# CodeAurora IMS functionality needed by frameworks/opt/telephony
+# as part of "ims-ext-common"
+org\.codeaurora\.ims.*
+# telephony-ext:
+org\.codeaurora\.internal.*
