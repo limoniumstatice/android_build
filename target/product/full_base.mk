@@ -23,16 +23,6 @@ PRODUCT_PACKAGES := \
     libfwdlockengine \
     WAPPushManager
 
-PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    PhotoTable
-
 # Bluetooth:
 #   audio.a2dp.default is a system module. Generic system image includes
 #   audio.a2dp.default to support A2DP if board has the capability.
@@ -53,7 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.notification_sound=pixiedust.ogg
 
 # Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+PRODUCT_LOCALES := ja_JP
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage14.mk)
