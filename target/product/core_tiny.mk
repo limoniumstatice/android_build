@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     ExtServices \
     SettingsProvider \
     Shell \
-    WallpaperBackup \
     android.hidl.base-V1.0-java \
     android.hidl.manager-V1.0-java \
     bcc \
@@ -117,7 +116,6 @@ PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
     InputDevices \
     SettingsProvider \
-    WallpaperBackup \
 
 # The set of packages we want to force 'speed' compilation on.
 PRODUCT_DEXPREOPT_SPEED_APPS := \
